@@ -6,7 +6,7 @@ const Information = () => {
   return (
     <>
       <div className="infoContent">
-        <h1 className="pageTitle">Information</h1>
+        <header className="pageTitle">Information</header>
       </div>
       <div className="bottom">
         <Footer />

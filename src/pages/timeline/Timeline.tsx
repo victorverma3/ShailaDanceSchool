@@ -6,7 +6,7 @@ const Timeline = () => {
   return (
     <>
       <div className="timelineContent">
-        <h1 className="pageTitle">Timeline</h1>
+        <header className="pageTitle">Timeline</header>
       </div>
       <div className="bottom">
         <Footer />
