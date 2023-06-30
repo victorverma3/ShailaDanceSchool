@@ -11,6 +11,10 @@
     width: 50vw;
 }
 
+.homeInfoSubtitle {
+  font-family: cursive;
+}
+
 .homeInfoText {
     margin: auto;
     font-size: 25px;

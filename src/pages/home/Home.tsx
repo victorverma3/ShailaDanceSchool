@@ -6,19 +6,18 @@ const Home = () => {
   return (
     <>
       <div className="homeContent">
-        <h1 className="homeTitle">Shaila School of Dance</h1>
-
+        <header className="homeTitle">Shaila School of Dance</header>
+        <p>Specializing in Bollywood dance since 2009</p>
         <div className="homeInfo">
           <div className="homeInfoItem" id="homeLocation">
-            <header className="homeInfoSubtitle">Location</header>
+            <h1 className="homeInfoSubtitle">Westborough</h1>
             <p className="homeInfoText">74 Otis St</p>
             <p className="homeInfoText">Westborough, MA 01581</p>
           </div>
           <div className="homeInfoItem" id="homeContact">
-            <h1 className="homeInfoSubtitle">Contact</h1>
-            <address className="homeInfoText">Phone: 508-308-6605</address>
+            <h1 className="homeInfoSubtitle">Join Today!</h1>
+            <address className="homeInfoText">508-308-6605</address>
             <address className="homeInfoText">
-              Email:{" "}
               <a href="mailto:shaila@shailadanceschool.com">
                 shaila@shailadanceschool.com
               </a>
