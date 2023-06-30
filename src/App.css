@@ -1,0 +1,21 @@
+#root {
+  max-width: 1440px;
+  margin: auto;
+  text-align: center;
+  background-image: url("./images/background.png");
+  overflow-x: hidden;
+}
+
+.pageTitle {
+  font-size: 45px;
+}
+
+@media screen and (max-width: 499px) { }
+
+@media screen and (min-width: 500px) and (max-width: 1439px) { }
+
+@media screen and (min-width: 1440px) {
+  .pageTitle {
+    font-size: 65px;
+  }
+}

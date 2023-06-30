@@ -1,0 +1,23 @@
+.homeContact {
+    background-color: red;
+}
+
+.homeContent {
+    margin: 25px auto;
+}
+
+.homeTitle {
+    font-family: cursive;
+    font-size: 75px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 499px) { }
+
+@media screen and (min-width: 500px) and (max-width: 1439px) { }
+
+@media screen and (min-width: 1440px) {
+  .homeTitle {
+    font-size: 90px;
+  }
+}
