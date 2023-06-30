@@ -7,14 +7,23 @@ const Home = () => {
     <>
       <div className="homeContent">
         <h1 className="homeTitle">Shaila School of Dance</h1>
-        <div className="homeContact">
-          <h1 className="contactSubtitle">Contact Shaila</h1>
-          <p>Phone: 508-308-6605</p>
-          <p>
-            <a href="mailto:shaila@shailadanceschool.com">
-              shaila@shailadanceschool.com
-            </a>
-          </p>
+        <div className="homeInfo">
+          <div className="homeInfoItem" id="homeLocation">
+            <h1 className="homeInfoSubtitle">Location</h1>
+            <p className="homeInfoText">74 Otis St</p>
+            <p className="homeInfoText">Westborough, MA 01581</p>
+          </div>
+          <div className="homeInfoItem" id="homeContact">
+            <h1 className="homeInfoSubtitle">Contact</h1>
+            <p className="homeInfoText">Phone: 508-308-6605 </p>{" "}
+            <p className="homeInfoText">
+              {" "}
+              Email:{" "}
+              <a href="mailto:shaila@shailadanceschool.com">
+                shaila@shailadanceschool.com
+              </a>
+            </p>
+          </div>
         </div>
       </div>
       <div className="bottom">

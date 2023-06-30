@@ -1,15 +1,43 @@
-.homeContact {
-    background-color: red;
+.homeContent {
+  margin: 25px auto;
 }
 
-.homeContent {
-    margin: 25px auto;
+.homeInfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.homeInfoItem {
+    width: 50vw;
+}
+
+.homeInfoText {
+    margin: auto;
+    font-size: 25px;
+}
+
+.homeInfoText a {
+  text-decoration: none;
+  color: black;
+}
+
+.homeInfoText a:hover {
+  text-decoration: underline;
+  color:aqua
 }
 
 .homeTitle {
     font-family: cursive;
     font-size: 75px;
     font-style: italic;
+}
+
+#homeContact {
+  background-color: red;
+}
+
+#homeLocation {
+  background-color: blue;
 }
 
 @media screen and (max-width: 499px) { }
