@@ -4,9 +4,9 @@ import "./App.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./pages/home/Home";
-import Information from "./pages/information/Information";
 import Gallery from "./pages/gallery/Gallery";
-import Contact from "./pages/contact/Contact";
+import Timeline from "./pages/timeline/Timeline";
+import Information from "./pages/information/Information";
 import About from "./pages/about/About";
 import Error from "./pages/error/Error";
 import { Analytics } from "@vercel/analytics/react";
@@ -20,16 +20,16 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/information",
-        element: <Information />,
-      },
-      {
         path: "/gallery",
         element: <Gallery />,
       },
       {
-        path: "/contact",
-        element: <Contact />,
+        path: "/timeline",
+        element: <Timeline />,
+      },
+      {
+        path: "/information",
+        element: <Information />,
       },
       {
         path: "/about",
