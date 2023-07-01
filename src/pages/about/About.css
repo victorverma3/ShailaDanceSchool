@@ -1,3 +1,9 @@
 .aboutContent {
+    width: 80vw;
     margin: 25px auto;
+}
+
+.aboutText {
+    font-size: 20px;
+    text-align: justify;
 }
