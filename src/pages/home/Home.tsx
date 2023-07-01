@@ -8,6 +8,11 @@ const Home = () => {
       <div className="homeContent">
         <h1 className="homeTitle">Shaila School of Dance</h1>
         <p className="tagline">Specializing in Bollywood dance since 2009</p>
+        <div className="homeImages">
+          <img className="homePic" src="#" alt="image loading error"></img>
+          <img className="homePic" src="#" alt="image loading error"></img>
+          <img className="homePic" src="#" alt="image loading error"></img>
+        </div>
         <div className="homeInfo">
           <div className="homeInfoItem" id="homeLocation">
             <h1 className="homeInfoSubtitle">Westborough</h1>
