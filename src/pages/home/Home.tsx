@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div className="homeContent">
         <header className="homeTitle">Shaila School of Dance</header>
-        <p>Specializing in Bollywood dance since 2009</p>
+        <p className="tagline">Specializing in Bollywood dance since 2009</p>
         <div className="homeInfo">
           <div className="homeInfoItem" id="homeLocation">
             <h1 className="homeInfoSubtitle">Westborough</h1>

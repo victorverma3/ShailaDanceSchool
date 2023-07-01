@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bottom">
       <p className="footerItem">
-        © 2009-2023 Shaila School of Dance. All rights reserved.
+        © 2009 - 2023 Shaila School of Dance. All rights reserved.
       </p>
     </div>
   );
