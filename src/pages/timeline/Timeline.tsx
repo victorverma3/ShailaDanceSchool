@@ -22,7 +22,7 @@ const Timeline = () => {
       title: "2022",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: pic1,
     },
     {
       id: 3,
@@ -125,9 +125,10 @@ const Timeline = () => {
               <VerticalTimelineElement
                 key={element.id}
                 className="timelineElement"
-                iconClassName="timelineIcon"
-                iconStyle={{ background: "#fff" }}
-                icon={<img src={element.icon} />}
+                iconStyle={{
+                  backgroundImage: `url(${element.icon})`,
+                  backgroundSize: "cover",
+                }}
               >
                 <h3 className="vertical-timeline-element-title">
                   {element.title}
