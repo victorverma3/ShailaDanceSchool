@@ -15,6 +15,11 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link>
+                <Link className="navLink" to="/information">
+                  Information
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
                 <Link className="navLink" to="/gallery">
                   Gallery
                 </Link>
@@ -22,11 +27,6 @@ const Header = () => {
               <Nav.Link>
                 <Link className="navLink" to="/timeline">
                   Timeline
-                </Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link className="navLink" to="/information">
-                  Information
                 </Link>
               </Nav.Link>
               <Nav.Link>
