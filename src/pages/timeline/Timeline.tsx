@@ -6,6 +6,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import { ReactComponent as pic1 } from "../../images/2023.png";
 
 const Timeline = () => {
   const timelineElements = [
@@ -14,7 +15,7 @@ const Timeline = () => {
       title: "2023",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: pic1,
     },
     {
       id: 2,
@@ -124,6 +125,8 @@ const Timeline = () => {
               <VerticalTimelineElement
                 key={element.id}
                 className="timelineElement"
+                iconStyle={{ color: "white" }}
+                icon={<img src={element.icon}></img>}
               >
                 <h3 className="vertical-timeline-element-title">
                   {element.title}
