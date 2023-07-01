@@ -6,7 +6,21 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import pic1 from "../../images/2023.png";
+import year1 from "../../images/2009.png";
+import year2 from "../../images/2010.png";
+import year3 from "../../images/2011.png";
+import year4 from "../../images/2012.png";
+import year5 from "../../images/2013.png";
+import year6 from "../../images/2014.png";
+import year7 from "../../images/2015.png";
+import year8 from "../../images/2016.png";
+import year9 from "../../images/2017.png";
+import year10 from "../../images/2018.png";
+import year11 from "../../images/2019.png";
+import year12 from "../../images/2020.png";
+import year13 from "../../images/2021.png";
+import year14 from "../../images/2022.png";
+import year15 from "../../images/2023.png";
 
 const Timeline = () => {
   const timelineElements = [
@@ -15,104 +29,104 @@ const Timeline = () => {
       title: "2023",
       description: "placeholder",
       image: "placeholder",
-      icon: pic1,
+      icon: year15,
     },
     {
       id: 2,
       title: "2022",
       description: "placeholder",
       image: "placeholder",
-      icon: pic1,
+      icon: year14,
     },
     {
       id: 3,
       title: "2021",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: year13,
     },
     {
       id: 4,
       title: "2020",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: year12,
     },
     {
       id: 5,
       title: "2019",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: year11,
     },
     {
       id: 6,
       title: "2018",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: year10,
     },
     {
       id: 7,
       title: "2017",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: year9,
     },
     {
       id: 8,
       title: "2016",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: year8,
     },
     {
       id: 9,
       title: "2015",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: year7,
     },
     {
       id: 10,
       title: "2014",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: year6,
     },
     {
       id: 11,
       title: "2013",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: year5,
     },
     {
       id: 12,
       title: "2012",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: year4,
     },
     {
       id: 13,
       title: "2011",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: year3,
     },
     {
       id: 14,
       title: "2010",
       description: "placeholder",
       image: "placeholder",
-      icon: "placeholder",
+      icon: year2,
     },
     {
       id: 15,
       title: "2009",
       description: "placeholder",
-      image: "placeholder",
+      image: year1,
     },
   ];
   return (
