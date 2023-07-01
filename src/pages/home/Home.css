@@ -9,6 +9,7 @@
 
 .homeInfoItem {
     width: 50vw;
+    padding-block: 10px;
 }
 
 .homeInfoSubtitle {
@@ -28,7 +29,7 @@
 
 .homeInfoText a:hover {
   text-decoration: underline;
-  color:aqua
+  color:bisque;
 }
 
 .homeTitle {
@@ -43,11 +44,11 @@
 }
 
 #homeContact {
-  background-color: pink;
+  background-color: sienna;
 }
 
 #homeLocation {
-  background-color: blue;
+  background-color: bisque;
 }
 
 @media screen and (max-width: 499px) { }
