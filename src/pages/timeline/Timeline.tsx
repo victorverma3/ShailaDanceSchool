@@ -126,7 +126,8 @@ const Timeline = () => {
       id: 15,
       title: "2009",
       description: "placeholder",
-      image: year1,
+      image: "placeholder",
+      icon: year1,
     },
   ];
   return (
@@ -141,6 +142,7 @@ const Timeline = () => {
                 className="timelineElement"
                 iconStyle={{
                   backgroundImage: `url(${element.icon})`,
+                  backgroundPosition: "center",
                   backgroundSize: "cover",
                 }}
               >
