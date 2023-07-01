@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <div className="homeContent">
-        <header className="homeTitle">Shaila School of Dance</header>
+        <h1 className="homeTitle">Shaila School of Dance</h1>
         <p className="tagline">Specializing in Bollywood dance since 2009</p>
         <div className="homeInfo">
           <div className="homeInfoItem" id="homeLocation">
