@@ -10,3 +10,10 @@
 .timelineElement {
     padding-inline: 10px;
 }
+
+.timelineTitle {
+    font-family: cursive;
+    font-size: 45px;
+    color: sienna;
+    padding-bottom: 10px;
+}
