@@ -49,6 +49,10 @@
   width: 22vw;
 }
 
+.homeStars {
+  width: 10rem;
+}
+
 .homeSubtitle {
   margin-top: 10px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -83,6 +87,7 @@
 
 .quote {
   width: 35rem;
+  padding-top: 10px;
   padding-inline: 10px;
   text-align: justify;
   font-size: 18px;
