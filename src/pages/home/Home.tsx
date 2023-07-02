@@ -31,9 +31,7 @@ const Home = () => {
     <>
       <div className="homeContent">
         <h1 className="homeTitle">Shaila School of Dance</h1>
-        <h3 className="homeSubtitle">
-          Specializing in Bollywood dance since 2009
-        </h3>
+        <h3 className="tagline">Specializing in Bollywood dance since 2009</h3>
         <br></br>
         <div className="homeImages">
           <img className="homePic" src="#" alt="image loading error"></img>

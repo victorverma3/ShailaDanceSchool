@@ -92,6 +92,12 @@
   font-size: 18px;
 }
 
+.tagline {
+  margin-top: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
 #homeContact {
   background-color: sienna;
 }
