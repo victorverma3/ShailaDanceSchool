@@ -48,6 +48,12 @@
   width: 22vw;
 }
 
+.homeSubtitle {
+  margin-top: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
 .homeTitle {
   font-family: cursive;
   font-size: 75px;
@@ -55,9 +61,19 @@
   color: sienna;
 }
 
-.tagline {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 30px;
+.testimonials {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.quote {
+  width: 35rem;
+  padding-inline: 10px;
+  text-align: justify;
+  font-size: 18px;
 }
 
 #homeContact {
