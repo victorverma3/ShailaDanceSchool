@@ -18,12 +18,12 @@ const testimonials = () => {
     {
       rating: 5,
       review:
-        '"Shaila is an excellent dancer and an amazing teacher. I had the pleasure of being one of her first students when she opened the school and I still consider myself to be one of her student after many years, and hope to be one for many more to come."',
+        '"Shaila Verma is a great dancer and most importantly, has a great teaching style. I enjoy the lessons in the studio as well as the group performances (BTW, I NEVER danced until the age of 55+, and now love to dance thanks to Shaila\'s encouragement and motivation)."',
     },
     {
       rating: 5,
       review:
-        '"Shaila Verma is a great dancer and most importantly, has a great teaching style. I enjoy the lessons in the studio as well as the group performances (BTW, I NEVER danced until the age of 55+, and now love to dance thanks to Shaila\'s encouragement and motivation)."',
+        '"Shaila is an excellent dancer and an amazing teacher. I had the pleasure of being one of her first students when she opened the school and I still consider myself to be one of her student after many years, and hope to be one for many more to come."',
     },
     {
       rating: 5,
