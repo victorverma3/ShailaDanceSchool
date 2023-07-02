@@ -44,17 +44,17 @@ const Home = () => {
         <a className="testimonialLink" href="/testimonials">
           <h3 className="homeSubtitle">Testimonials</h3>
         </a>
-        <div className="testimonials">
+        <div className="homeTestimonials">
           {homeTestimonials.map((element) => {
             return (
               <>
-                <div className="homeTestimonialElements">
+                <div className="homeTestimonialElement">
                   <img
                     className="homeStars"
                     src={stars}
                     alt="image loading error"
                   ></img>
-                  <p className="quote">{element.review}</p>
+                  <p className="homeQuote">{element.review}</p>
                 </div>{" "}
               </>
             );

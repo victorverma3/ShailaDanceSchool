@@ -76,7 +76,7 @@
   color: sienna;
 }
 
-.testimonials {
+.homeTestimonials {
   width: 90vw;
   margin: auto;
   display: flex;
@@ -84,7 +84,7 @@
   justify-content: space-around;
 }
 
-.quote {
+.homeQuote {
   width: 35rem;
   padding-top: 10px;
   padding-inline: 10px;
