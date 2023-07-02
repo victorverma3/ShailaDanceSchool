@@ -133,9 +133,7 @@ const Timeline = () => {
   return (
     <>
       <div className="timelineContent">
-        <h1 className="pageTitle">
-          Celebrating 15 years of Bollywood memories...
-        </h1>
+        <h1 className="pageTitle">Celebrating 15 years of memories...</h1>
         <VerticalTimeline className="timelineComponent">
           {timelineElements.map((element) => {
             return (
