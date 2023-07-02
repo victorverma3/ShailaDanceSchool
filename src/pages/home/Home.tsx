@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Footer from "../../components/footer/Footer";
 import facebook from "../../images/facebook.png";
+import { Carousel } from "react-bootstrap";
 
 const Home = () => {
   return (
@@ -64,7 +65,6 @@ const Home = () => {
               </a>
             </address>
           </div>
-          br
         </div>
         <a href="https://www.facebook.com/ShailaDanceSchool/" target="_blank">
           <img
