@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Footer from "../../components/footer/Footer";
+import facebook from "../../images/facebook.png";
 
 const Home = () => {
   return (
@@ -16,8 +17,8 @@ const Home = () => {
         <div className="homeInfo">
           <div className="homeInfoItem" id="homeLocation">
             <h1 className="homeInfoSubtitle">Westborough</h1>
-            <p className="homeInfoText">74 Otis St</p>
-            <p className="homeInfoText">Westborough, MA 01581</p>
+            <address className="homeInfoText">74 Otis St</address>
+            <address className="homeInfoText">Westborough, MA 01581</address>
           </div>
           <div className="homeInfoItem" id="homeContact">
             <h1 className="homeInfoSubtitle">Join Today!</h1>
@@ -30,6 +31,13 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <a href="https://www.facebook.com/ShailaDanceSchool/" target="_blank">
+        <img
+          className="facebookLogo"
+          src={facebook}
+          alt="image loading error"
+        ></img>
+      </a>
       <div className="bottom">
         <Footer />
       </div>
