@@ -19,7 +19,7 @@ const Home = () => {
     {
       rating: 5,
       review:
-        "Shaila is an excellent dancer and an amazing teacher.I had the pleasure of being one of her first students when she opened the school and I still consider myself to be one of her student after many years, and hope to be one for many more to come.",
+        "Shaila is an excellent dancer and an amazing teacher. I had the pleasure of being one of her first students when she opened the school and I still consider myself to be one of her student after many years, and hope to be one for many more to come.",
     },
     {
       rating: 5,

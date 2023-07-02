@@ -1,3 +1,23 @@
 .testimonialContent {
     margin: 25px auto 50px auto;
 }
+
+.testimonials {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+.testimonialStars {
+    width: 10rem;
+}
+  
+.testimonialQuote {
+    width: 35rem;
+    padding-top: 10px;
+    padding-inline: 10px;
+    text-align: justify;
+    font-size: 22px;
+ }

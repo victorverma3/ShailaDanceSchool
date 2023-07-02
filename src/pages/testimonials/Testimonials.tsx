@@ -1,9 +1,10 @@
 import React from "react";
 import "./testimonials.css";
 import Footer from "../../components/footer/Footer";
+import stars from "../../images/stars.png";
 
 const testimonials = () => {
-  const testimonialText = [
+  const testimonialElements = [
     {
       rating: 5,
       review:
@@ -17,7 +18,7 @@ const testimonials = () => {
     {
       rating: 5,
       review:
-        "Shaila is an excellent dancer and an amazing teacher.I had the pleasure of being one of her first students when she opened the school and I still consider myself to be one of her student after many years, and hope to be one for many more to come.",
+        "Shaila is an excellent dancer and an amazing teacher. I had the pleasure of being one of her first students when she opened the school and I still consider myself to be one of her student after many years, and hope to be one for many more to come.",
     },
     {
       rating: 5,
@@ -29,6 +30,22 @@ const testimonials = () => {
     <>
       <div className="testimonialContent">
         <h1 className="pageTitle">Testimonials</h1>
+        <div className="testimonials">
+          {testimonialElements.map((element) => {
+            return (
+              <>
+                <div className="testimonialElement">
+                  <img
+                    className="testimonialStars"
+                    src={stars}
+                    alt="image loading error"
+                  ></img>
+                  <p className="testimonialQuote">{element.review}</p>
+                </div>
+              </>
+            );
+          })}
+        </div>
       </div>
       <div className="bottom">
         <Footer />
