@@ -16,7 +16,6 @@ const Home = () => {
           <img className="homePic" src="#" alt="image loading error"></img>
           <img className="homePic" src="#" alt="image loading error"></img>
           <img className="homePic" src="#" alt="image loading error"></img>
-          br
         </div>
         <br></br>
         <a className="testimonialLink" href="/testimonials">
