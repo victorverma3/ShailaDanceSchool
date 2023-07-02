@@ -10,6 +10,7 @@ import Timeline from "./pages/timeline/Timeline";
 import About from "./pages/about/About";
 import Error from "./pages/error/Error";
 import { Analytics } from "@vercel/analytics/react";
+import Testimonials from "./pages/testimonials/testimonials";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/testimonials",
+        element: <Testimonials />,
       },
       {
         path: "*",

@@ -17,7 +17,9 @@ const Home = () => {
           <img className="homePic" src="#" alt="image loading error"></img>
         </div>
         <br></br>
-        <h3 className="homeSubtitle">Testimonials</h3>
+        <a className="testimonialLink" href="/testimonials">
+          <h3 className="homeSubtitle">Testimonials</h3>
+        </a>
         <div className="testimonials">
           <p className="quote">
             "Shaila is a wonderful dance teacher, even for someone with no

@@ -61,6 +61,16 @@
   color: sienna;
 }
 
+.testimonialLink {
+  text-decoration: none;
+  color: black;
+}
+
+.testimonialLink:hover {
+  text-decoration: underline;
+  color: sienna;
+}
+
 .testimonials {
   width: 90vw;
   margin: auto;
