@@ -11,10 +11,12 @@ const Home = () => {
         <h3 className="homeSubtitle">
           Specializing in Bollywood dance since 2009
         </h3>
+        <br></br>
         <div className="homeImages">
           <img className="homePic" src="#" alt="image loading error"></img>
           <img className="homePic" src="#" alt="image loading error"></img>
           <img className="homePic" src="#" alt="image loading error"></img>
+          br
         </div>
         <br></br>
         <a className="testimonialLink" href="/testimonials">
