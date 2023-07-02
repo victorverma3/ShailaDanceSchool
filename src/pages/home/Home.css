@@ -56,7 +56,7 @@
 .homeSubtitle {
   margin-top: 10px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .homeTitle {
@@ -79,7 +79,6 @@
 .testimonials {
   width: 90vw;
   margin: auto;
-  padding-top: 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
