@@ -30,14 +30,14 @@ const Home = () => {
             </address>
           </div>
         </div>
+        <a href="https://www.facebook.com/ShailaDanceSchool/" target="_blank">
+          <img
+            className="facebookLogo"
+            src={facebook}
+            alt="image loading error"
+          ></img>
+        </a>
       </div>
-      <a href="https://www.facebook.com/ShailaDanceSchool/" target="_blank">
-        <img
-          className="facebookLogo"
-          src={facebook}
-          alt="image loading error"
-        ></img>
-      </a>
       <div className="bottom">
         <Footer />
       </div>
