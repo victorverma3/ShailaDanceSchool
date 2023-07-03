@@ -2,6 +2,7 @@ import React from "react";
 import "./testimonials.css";
 import Footer from "../../components/footer/Footer";
 import stars from "../../images/stars.png";
+import Reveal from "../../components/Reveal/Reveal";
 
 const testimonials = () => {
   const testimonialElements = [
@@ -78,7 +79,7 @@ const testimonials = () => {
         <div className="testimonials">
           {testimonialElements.map((element) => {
             return (
-              <>
+              <Reveal>
                 <div className="testimonialElement">
                   <img
                     className="testimonialStars"
@@ -87,7 +88,7 @@ const testimonials = () => {
                   ></img>
                   <p className="testimonialQuote">{element.review}</p>
                 </div>
-              </>
+              </Reveal>
             );
           })}
         </div>
