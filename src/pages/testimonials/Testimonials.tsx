@@ -53,7 +53,7 @@ const testimonials = () => {
     {
       rating: 5,
       review:
-        "\"Love Shailas dance class! Been goin there for the past 4 years. It's a great class to learn [bollywood] dance and also get an excellent workout! She's organized and easy to work with.\"",
+        "\"Love Shailas dance class! Been [going] there for the past 4 years. It's a great class to learn [bollywood] dance and also get an excellent workout! She's organized and easy to work with.\"",
     },
     {
       rating: 5,
