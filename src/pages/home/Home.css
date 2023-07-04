@@ -66,16 +66,6 @@
   color: sienna;
 }
 
-.testimonialLink {
-  text-decoration: none;
-  color: black;
-}
-
-.testimonialLink:hover {
-  text-decoration: underline;
-  color: sienna;
-}
-
 .homeTestimonials {
   width: 90vw;
   margin: auto;
@@ -98,6 +88,16 @@
   font-size: 30px;
 }
 
+.testimonialLink {
+  text-decoration: none;
+  color: black;
+}
+
+.testimonialLink:hover {
+  text-decoration: underline;
+  color: sienna;
+}
+
 #homeContact {
   background-color: sienna;
 }
@@ -108,10 +108,25 @@
 
 @media screen and (max-width: 499px) { }
 
-@media screen and (min-width: 500px) and (max-width: 1439px) { }
-
 @media screen and (min-width: 1440px) {
+  .facebookLogo{
+    width: 60px;
+  }
+  
+  .homeSubtitle {
+    font-size: 50px;
+  }
+  
   .homeTitle {
     font-size: 90px;
+  }
+
+  .homeQuote {
+    width: 40rem;
+    font-size: 22px;
+  }
+
+  .tagline {
+    font-size: 35px;
   }
 }
