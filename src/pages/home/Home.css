@@ -106,9 +106,13 @@
   background-color: bisque;
 }
 
-@media screen and (max-width: 499px) { }
+@media screen and (max-width: 699px) {
+  .homeInfoText {
+    font-size: 16px;
+  }
+}
 
-@media screen and (min-width: 500px) and (max-width: 699px) {
+@media screen and (min-width: 500px) and (max-width: 1249px) {
   .homeQuote {
       width: 90vw;
   }
@@ -117,6 +121,10 @@
 @media screen and (min-width: 1440px) {
   .facebookLogo{
     width: 60px;
+  }
+
+  .homeInfoText {
+    font-size: 30px;
   }
   
   .homeSubtitle {
