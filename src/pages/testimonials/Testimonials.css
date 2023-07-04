@@ -22,6 +22,18 @@
     font-size: 22px;
  }
 
+@media screen and (max-width: 499px) {
+    .testimonialQuote {
+        width: 15rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+    .testimonialQuote {
+        width: 27rem;
+    }
+}
+
 @media screen and (min-width: 1440px) { 
     .testimonialQuote {
         width: 40rem;
