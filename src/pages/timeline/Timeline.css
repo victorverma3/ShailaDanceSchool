@@ -1,4 +1,6 @@
-.timelineComponent {
+.timeline {
+    width: 90vw;
+    margin: auto;
     background-color: bisque;
 }
 
