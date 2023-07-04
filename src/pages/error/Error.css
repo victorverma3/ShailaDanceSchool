@@ -1,3 +1,20 @@
+.errorCode {
+    font-size: 100px;
+    color: sienna;
+}
+
+.errorMessage {
+    font-size: 40px;
+}
+
+.errorText {
+    font-size: 20px;
+}
+
 .errorContent {
     margin: 25px auto;
+}
+
+.errorDisplay {
+    margin-top: 100px;;
 }
