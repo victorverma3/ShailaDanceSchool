@@ -3,7 +3,7 @@
 }
 
 .navBrand {
-   font-size: 30px;
+   font-size: 2rem;
    color: black;
 }
 
@@ -20,7 +20,7 @@
 
 .navLink {
    text-decoration: none;
-   font-size: 25px;
+   font-size: 1.625rem;
    color: black;
 }
 
@@ -35,10 +35,10 @@
 
 @media screen and (min-width: 1440px) {
    .navBrand {
-      font-size: 32px;
+      font-size: 2.25rem;
    }
 
    .navLink {
-      font-size: 27px;
+      font-size: 1.875rem;
    }
 }

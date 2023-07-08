@@ -1,14 +1,14 @@
 .errorCode {
-    font-size: 100px;
+    font-size: 6.25rem;
     color: sienna;
 }
 
 .errorMessage {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .errorText {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .errorContent {

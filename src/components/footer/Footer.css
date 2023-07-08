@@ -12,17 +12,17 @@
 .footerItem {
    margin: auto;
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size: 15px;
+   font-size: 1rem;
 }
 
 @media only screen and (max-width: 499px) {
    .footerItem {
-      font-size: 10px;
+      font-size: 0.625rem;
    }
 }
 
 @media only screen and (min-width: 1440px) {
    .footerItem {
-      font-size: 18px;
+      font-size: 1.125rem;
    }
 }
