@@ -131,38 +131,33 @@ const Timeline = () => {
     },
   ];
   return (
-    <>
-      <div className="timelineContent">
-        <h1 className="timelineTitle">
-          Celebrating 15 years of dance memories...
-        </h1>
-        <div className="timeline">
-          <VerticalTimeline>
-            {timelineElements.map((element) => {
-              return (
-                <VerticalTimelineElement
-                  key={element.id}
-                  className="timelineElement"
-                  iconStyle={{
-                    backgroundImage: `url(${element.icon})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "cover",
-                  }}
-                >
-                  <h3 className="vertical-timeline-element-title">
-                    {element.title}
-                  </h3>
-                  <img src={element.image} alt="image loading error"></img>
-                </VerticalTimelineElement>
-              );
-            })}
-          </VerticalTimeline>
-        </div>
+    <div className="timelineContent">
+      <h1 className="timelineTitle">
+        Celebrating 15 years of dance memories...
+      </h1>
+      <div className="timeline">
+        <VerticalTimeline>
+          {timelineElements.map((element) => {
+            return (
+              <VerticalTimelineElement
+                key={element.id}
+                className="timelineElement"
+                iconStyle={{
+                  backgroundImage: `url(${element.icon})`,
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                }}
+              >
+                <h3 className="vertical-timeline-element-title">
+                  {element.title}
+                </h3>
+                <img src={element.image} alt="image loading error"></img>
+              </VerticalTimelineElement>
+            );
+          })}
+        </VerticalTimeline>
       </div>
-      <div className="bottom">
-        <Footer />
-      </div>
-    </>
+    </div>
   );
 };
 

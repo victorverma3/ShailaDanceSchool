@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Header from "./components/Header/Header";
+import { useLocation, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Information from "./pages/information/Information";
 import Gallery from "./pages/gallery/Gallery";
@@ -11,47 +10,26 @@ import About from "./pages/about/About";
 import Error from "./pages/error/Error";
 import { Analytics } from "@vercel/analytics/react";
 import Testimonials from "./pages/testimonials/Testimonials";
-
-const router = createBrowserRouter([
-  {
-    element: <Header />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/information",
-        element: <Information />,
-      },
-      {
-        path: "/gallery",
-        element: <Gallery />,
-      },
-      {
-        path: "/timeline",
-        element: <Timeline />,
-      },
-      {
-        path: "/about",
-        element: <About />,
-      },
-      {
-        path: "/testimonials",
-        element: <Testimonials />,
-      },
-      {
-        path: "*",
-        element: <Error />,
-      },
-    ],
-  },
-]);
+import Layout from "./Layout";
 
 function App() {
+  const { pathname } = useLocation();
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, [pathname]);
   return (
     <div>
-      <RouterProvider router={router} />
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/information" element={<Information />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/timeline" element={<Timeline />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="*" element={<Error />} />
+        </Route>
+      </Routes>
       <Analytics />
     </div>
   );

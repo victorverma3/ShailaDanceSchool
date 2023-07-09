@@ -4,14 +4,9 @@ import Footer from "../../components/footer/Footer";
 
 const Gallery = () => {
   return (
-    <>
-      <div className="galleryContent">
-        <h1 className="pageTitle">Gallery</h1>
-      </div>
-      <div className="bottom">
-        <Footer />
-      </div>
-    </>
+    <div className="galleryContent">
+      <h1 className="pageTitle">Gallery</h1>
+    </div>
   );
 };
 

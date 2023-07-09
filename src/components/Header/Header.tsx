@@ -3,7 +3,7 @@ import "./Header.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -41,7 +41,6 @@ const Header = () => {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <Outlet />
       </div>
     </>
   );

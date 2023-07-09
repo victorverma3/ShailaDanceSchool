@@ -28,65 +28,60 @@ const Home = () => {
     },
   ];
   return (
-    <>
-      <div className="homeContent">
-        <h1 className="homeTitle">Shaila School of Dance</h1>
-        <h3 className="tagline">Specializing in Bollywood dance since 2009</h3>
-        <br></br>
-        <div className="homeImages">
-          <img className="homePic" src="#" alt="image loading error"></img>
-          <img className="homePic" src="#" alt="image loading error"></img>
-          <img className="homePic" src="#" alt="image loading error"></img>
-        </div>
-        <br></br>
-        <a className="testimonialLink" href="/testimonials">
-          <h3 className="homeSubtitle">Testimonials</h3>
-        </a>
-        <div className="homeTestimonials">
-          {homeTestimonials.map((element) => {
-            return (
-              <>
-                <div className="homeTestimonialElement">
-                  <img
-                    className="homeStars"
-                    src={stars}
-                    alt="image loading error"
-                  ></img>
-                  <p className="homeQuote">{element.review}</p>
-                </div>{" "}
-              </>
-            );
-          })}
-        </div>
-        <br></br>
-        <div className="homeInfo">
-          <div className="homeInfoItem" id="homeLocation">
-            <h1 className="homeInfoSubtitle">Westborough</h1>
-            <address className="homeInfoText">74 Otis St</address>
-            <address className="homeInfoText">Westborough, MA 01581</address>
-          </div>
-          <div className="homeInfoItem" id="homeContact">
-            <h1 className="homeInfoSubtitle">Join Today!</h1>
-            <address className="homeInfoText">508-308-6605</address>
-            <address className="homeInfoText">
-              <a href="mailto:shaila@shailadanceschool.com">
-                shaila@shailadanceschool.com
-              </a>
-            </address>
-          </div>
-        </div>
-        <a href="https://www.facebook.com/ShailaDanceSchool/" target="_blank">
-          <img
-            className="facebookLogo"
-            src={facebook}
-            alt="image loading error"
-          ></img>
-        </a>
+    <div className="homeContent">
+      <h1 className="homeTitle">Shaila School of Dance</h1>
+      <h3 className="tagline">Specializing in Bollywood dance since 2009</h3>
+      <br></br>
+      <div className="homeImages">
+        <img className="homePic" src="#" alt="image loading error"></img>
+        <img className="homePic" src="#" alt="image loading error"></img>
+        <img className="homePic" src="#" alt="image loading error"></img>
       </div>
-      <div className="bottom">
-        <Footer />
+      <br></br>
+      <a className="testimonialLink" href="/testimonials">
+        <h3 className="homeSubtitle">Testimonials</h3>
+      </a>
+      <div className="homeTestimonials">
+        {homeTestimonials.map((element) => {
+          return (
+            <>
+              <div className="homeTestimonialElement">
+                <img
+                  className="homeStars"
+                  src={stars}
+                  alt="image loading error"
+                ></img>
+                <p className="homeQuote">{element.review}</p>
+              </div>{" "}
+            </>
+          );
+        })}
       </div>
-    </>
+      <br></br>
+      <div className="homeInfo">
+        <div className="homeInfoItem" id="homeLocation">
+          <h1 className="homeInfoSubtitle">Westborough</h1>
+          <address className="homeInfoText">74 Otis St</address>
+          <address className="homeInfoText">Westborough, MA 01581</address>
+        </div>
+        <div className="homeInfoItem" id="homeContact">
+          <h1 className="homeInfoSubtitle">Join Today!</h1>
+          <address className="homeInfoText">508-308-6605</address>
+          <address className="homeInfoText">
+            <a href="mailto:shaila@shailadanceschool.com">
+              shaila@shailadanceschool.com
+            </a>
+          </address>
+        </div>
+      </div>
+      <a href="https://www.facebook.com/ShailaDanceSchool/" target="_blank">
+        <img
+          className="facebookLogo"
+          src={facebook}
+          alt="image loading error"
+        ></img>
+      </a>
+    </div>
   );
 };
 
