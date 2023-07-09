@@ -32,7 +32,6 @@
 
 .homeInfoText {
   margin: auto;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.625rem;
 }
 
@@ -56,7 +55,6 @@
 
 .homeSubtitle {
   margin-top: 10px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2.5rem;
 }
 
@@ -85,7 +83,6 @@
 
 .tagline {
   margin-top: 10px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.875rem;
 }
 
