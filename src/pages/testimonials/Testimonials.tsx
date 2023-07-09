@@ -1,6 +1,5 @@
 import React from "react";
 import "./testimonials.css";
-import Footer from "../../components/footer/Footer";
 import stars from "../../images/stars.png";
 import Reveal from "../../components/Reveal/Reveal";
 

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Timeline.css";
-import Footer from "../../components/footer/Footer";
 import {
   VerticalTimeline,
   VerticalTimelineElement,

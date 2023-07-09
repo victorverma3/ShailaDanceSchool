@@ -1,6 +1,5 @@
 import React from "react";
 import "./Error.css";
-import Footer from "../../components/footer/Footer";
 
 const Error = () => {
   return (
