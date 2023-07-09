@@ -8,7 +8,6 @@ import Gallery from "./pages/gallery/Gallery";
 import Timeline from "./pages/timeline/Timeline";
 import About from "./pages/about/About";
 import Error from "./pages/error/Error";
-import { Analytics } from "@vercel/analytics/react";
 import Testimonials from "./pages/testimonials/Testimonials";
 import Layout from "./Layout";
 
@@ -30,7 +29,6 @@ function App() {
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
-      <Analytics />
     </div>
   );
 }
