@@ -4,15 +4,15 @@
     background-color: bisque;
 }
 
-.timelineContent {
+.timeline-content {
     margin: 85px auto 50px auto;
 }
 
-.timelineElement {
+.timeline-element {
     padding-inline: 10px;
 }
 
-.timelineTitle {
+.timeline-title {
     font-family: cursive;
     font-size: 2.875rem;
     color: sienna;

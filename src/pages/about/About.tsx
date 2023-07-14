@@ -3,10 +3,10 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="aboutContent">
-      <h1 className="pageTitle">About Shaila</h1>
+    <div className="about-content">
+      <h1 className="page-title">About Shaila</h1>
       <img src="#" alt="image loading error"></img>
-      <p className="aboutText">
+      <p className="about-text">
         Shaila Verma is a trained Bharatnatyam dancer and has been dancing since
         the age of five. She is the artistic director of the Shaila School Of
         Dance, which she founded in 2009 to provide training in Indian Bollywood
@@ -15,7 +15,7 @@ const About = () => {
         of dancers through her innovation and experimentation in Bollywood mixed
         with Folk, Punjabi, Filmy, and International dance forms.
       </p>
-      <p className="aboutText">
+      <p className="about-text">
         Shaila fervently challenges her students to greater heights to capture
         dance with a strong spirit. Her first priority is to discover and
         inspire their creative dance talent and build their confidence, as well

@@ -1,71 +1,71 @@
-.facebookLogo{
+.facebook-logo{
   width: 50px;
   margin: 10px auto auto auto;
 }
 
-.homeContent {
+.home-content {
   margin: 100px auto 50px auto;
 }
 
-.homeImages {
+.home-images {
   width: 80vw;
   margin: auto;
   display: flex;
   justify-content: space-around;
 }
 
-.homeInfo {
+.home-info {
   width: 99vw;
   margin: auto;
   display: flex;
   flex-direction: row;
 }
 
-.homeInfoItem {
+.home-info-item {
   width: 50vw;
   padding-block: 10px;
 }
 
-.homeInfoSubtitle {
+.home-info-subtitle {
   font-family: cursive;
 }
 
-.homeInfoText {
+.home-info-text {
   margin: auto;
   font-size: 1.625rem;
 }
 
-.homeInfoText a {
+.home-info-text a {
   text-decoration: none;
   color: black;
 }
 
-.homeInfoText a:hover {
+.home-info-text a:hover {
   text-decoration: underline;
   color:bisque;
 }
 
-.homePic {
+.home-pic {
   width: 22vw;
 }
 
-.homeStars {
+.home-stars {
   width: 10rem;
 }
 
-.homeSubtitle {
+.home-subtitle {
   margin-top: 10px;
   font-size: 2.5rem;
 }
 
-.homeTitle {
+.home-title {
   font-family: cursive;
   font-size: 4.675rem;
   font-style: italic;
   color: sienna;
 }
 
-.homeTestimonials {
+.home-testimonials {
   width: 90vw;
   margin: auto;
   display: flex;
@@ -73,7 +73,7 @@
   justify-content: space-around;
 }
 
-.homeQuote {
+.home-quote {
   width: 35rem;
   padding-top: 10px;
   padding-inline: 10px;
@@ -86,54 +86,54 @@
   font-size: 1.875rem;
 }
 
-.testimonialLink {
+.testimonial-link {
   text-decoration: none;
   color: black;
 }
 
-.testimonialLink:hover {
+.testimonial-link:hover {
   text-decoration: underline;
   color: sienna;
 }
 
-#homeContact {
+#home-contact {
   background-color: sienna;
 }
 
-#homeLocation {
+#home-location {
   background-color: bisque;
 }
 
 @media screen and (max-width: 699px) {
-  .homeInfoText {
+  .home-info-text {
     font-size: 1rem;
   }
 }
 
 @media screen and (min-width: 500px) and (max-width: 1249px) {
-  .homeQuote {
+  .home-quote {
       width: 90vw;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .facebookLogo{
+  .facebook-logo{
     width: 3.75rem;
   }
 
-  .homeInfoText {
+  .home-info-text {
     font-size: 1.875rem;
   }
   
-  .homeSubtitle {
+  .home-subtitle {
     font-size: 3.125rem;
   }
   
-  .homeTitle {
+  .home-title {
     font-size: 5.625rem;
   }
 
-  .homeQuote {
+  .home-quote {
     width: 40rem;
     font-size: 1.375rem;
   }

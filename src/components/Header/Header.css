@@ -2,42 +2,42 @@
    background-color:white;
 }
 
-.navBrand {
+.nav-brand {
    font-size: 2rem;
    color: black;
 }
 
-.navBrand:hover {
+.nav-brand:hover {
    text-decoration: underline;
    color: sienna;
 }
 
-.navContainer {
+.nav-container {
    width: 100vw;
    margin: auto;
 }
 
-.navLink {
+.nav-link {
    text-decoration: none;
    font-size: 1.625rem;
    color: black;
 }
 
- .navLink:hover {
+ .nav-link:hover {
    text-decoration: underline;
    color: sienna;
  }
 
- .navLink:hover {
+ .nav-link:hover {
    text-decoration: underline;
  }
 
 @media screen and (min-width: 1440px) {
-   .navBrand {
+   .nav-brand {
       font-size: 2.25rem;
    }
 
-   .navLink {
+   .nav-link {
       font-size: 1.875rem;
    }
 }

@@ -130,8 +130,8 @@ const Timeline = () => {
     },
   ];
   return (
-    <div className="timelineContent">
-      <h1 className="timelineTitle">
+    <div className="timeline-content">
+      <h1 className="timeline-title">
         Celebrating 15 years of dance memories...
       </h1>
       <div className="timeline">
@@ -140,7 +140,7 @@ const Timeline = () => {
             return (
               <VerticalTimelineElement
                 key={element.id}
-                className="timelineElement"
+                className="timeline-element"
                 iconStyle={{
                   backgroundImage: `url(${element.icon})`,
                   backgroundPosition: "center",

@@ -1,4 +1,4 @@
-.testimonialContent {
+.testimonial-content {
     margin: 85px auto 50px auto;
 }
 
@@ -10,11 +10,11 @@
     justify-content: space-around;
   }
 
-.testimonialStars {
+.testimonial-stars {
     width: 10rem;
 }
   
-.testimonialQuote {
+.testimonial-quote {
     width: 35rem;
     padding-top: 10px;
     padding-inline: 10px;
@@ -23,19 +23,19 @@
  }
 
 @media screen and (max-width: 499px) {
-    .testimonialQuote {
+    .testimonial-quote {
         width: 1rem;
     }
 }
 
 @media screen and (min-width: 500px) and (max-width: 1249px) {
-    .testimonialQuote {
+    .testimonial-quote {
         width: 90vw;
     }
 }
 
 @media screen and (min-width: 1440px) { 
-    .testimonialQuote {
+    .testimonial-quote {
         width: 40rem;
         font-size: 1.625rem;
     }

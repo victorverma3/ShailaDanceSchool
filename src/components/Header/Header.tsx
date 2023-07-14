@@ -8,32 +8,32 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="navContainer">
+      <div className="nav-container">
         <Navbar collapseOnSelect className="nav" expand="lg" fixed="top">
           <Container>
-            <Navbar.Brand className="navBrand" href="/">
+            <Navbar.Brand className="nav-brand" href="/">
               Home
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
                 <Nav.Link eventKey="1">
-                  <Link className="navLink" to="/information">
+                  <Link className="nav-link" to="/information">
                     Information
                   </Link>
                 </Nav.Link>
                 <Nav.Link eventKey="2">
-                  <Link className="navLink" to="/gallery">
+                  <Link className="nav-link" to="/gallery">
                     Gallery
                   </Link>
                 </Nav.Link>
                 <Nav.Link eventKey="3">
-                  <Link className="navLink" to="/timeline">
+                  <Link className="nav-link" to="/timeline">
                     Timeline
                   </Link>
                 </Nav.Link>
                 <Nav.Link eventKey="4">
-                  <Link className="navLink" to="/about">
+                  <Link className="nav-link" to="/about">
                     About
                   </Link>
                 </Nav.Link>

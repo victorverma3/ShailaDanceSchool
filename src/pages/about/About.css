@@ -1,15 +1,15 @@
-.aboutContent {
+.about-content {
     width: 80vw;
     margin: 85px auto 50px auto;
 }
 
-.aboutText {
+.about-text {
     font-size: 1.25rem;
     text-align: justify;
 }
 
 @media screen and (min-width: 1440px) {
-    .aboutText {
+    .about-text {
         font-size: 1.5rem;
     }
 }

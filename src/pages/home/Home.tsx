@@ -27,46 +27,46 @@ const Home = () => {
     },
   ];
   return (
-    <div className="homeContent">
-      <h1 className="homeTitle">Shaila School of Dance</h1>
+    <div className="home-content">
+      <h1 className="home-title">Shaila School of Dance</h1>
       <h3 className="tagline">Specializing in Bollywood dance since 2009</h3>
       <br></br>
-      <div className="homeImages">
-        <img className="homePic" src="#" alt="image loading error"></img>
-        <img className="homePic" src="#" alt="image loading error"></img>
-        <img className="homePic" src="#" alt="image loading error"></img>
+      <div className="home-images">
+        <img className="home-pic" src="#" alt="image loading error"></img>
+        <img className="home-pic" src="#" alt="image loading error"></img>
+        <img className="home-pic" src="#" alt="image loading error"></img>
       </div>
       <br></br>
-      <a className="testimonialLink" href="/testimonials">
-        <h3 className="homeSubtitle">Testimonials</h3>
+      <a className="testimonial-link" href="/testimonials">
+        <h3 className="home-subtitle">Testimonials</h3>
       </a>
-      <div className="homeTestimonials">
+      <div className="home-testimonials">
         {homeTestimonials.map((element) => {
           return (
             <>
-              <div className="homeTestimonialElement">
+              <div className="home-testimonial-element">
                 <img
-                  className="homeStars"
+                  className="home-stars"
                   src={stars}
                   alt="image loading error"
                 ></img>
-                <p className="homeQuote">{element.review}</p>
+                <p className="home-quote">{element.review}</p>
               </div>{" "}
             </>
           );
         })}
       </div>
       <br></br>
-      <div className="homeInfo">
-        <div className="homeInfoItem" id="homeLocation">
-          <h1 className="homeInfoSubtitle">Westborough</h1>
-          <address className="homeInfoText">74 Otis St</address>
-          <address className="homeInfoText">Westborough, MA 01581</address>
+      <div className="home-info">
+        <div className="home-info-item" id="home-location">
+          <h1 className="home-info-subtitle">Westborough</h1>
+          <address className="home-info-text">74 Otis St</address>
+          <address className="home-info-text">Westborough, MA 01581</address>
         </div>
-        <div className="homeInfoItem" id="homeContact">
-          <h1 className="homeInfoSubtitle">Join Today!</h1>
-          <address className="homeInfoText">508-308-6605</address>
-          <address className="homeInfoText">
+        <div className="home-info-item" id="home-contact">
+          <h1 className="home-info-subtitle">Join Today!</h1>
+          <address className="home-info-text">508-308-6605</address>
+          <address className="home-info-text">
             <a href="mailto:shaila@shailadanceschool.com">
               shaila@shailadanceschool.com
             </a>
@@ -75,7 +75,7 @@ const Home = () => {
       </div>
       <a href="https://www.facebook.com/ShailaDanceSchool/" target="_blank">
         <img
-          className="facebookLogo"
+          className="facebook-logo"
           src={facebook}
           alt="image loading error"
         ></img>

@@ -3,8 +3,8 @@ import "./Information.css";
 
 const Information = () => {
   return (
-    <div className="infoContent">
-      <h1 className="pageTitle">Information</h1>
+    <div className="info-content">
+      <h1 className="page-title">Information</h1>
     </div>
   );
 };

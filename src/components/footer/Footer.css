@@ -9,19 +9,19 @@
    bottom: 0;
  }
 
-.footerItem {
+.footer-item {
    margin: auto;
    font-size: 1rem;
 }
 
 @media only screen and (max-width: 499px) {
-   .footerItem {
+   .footer-item {
       font-size: 0.625rem;
    }
 }
 
 @media only screen and (min-width: 1440px) {
-   .footerItem {
+   .footer-item {
       font-size: 1.125rem;
    }
 }

@@ -7,7 +7,7 @@
   overflow-x: hidden;
 }
 
-.pageTitle {
+.page-title {
   font-size: 2.875rem;
   color: sienna;
 }
@@ -15,7 +15,7 @@
 @media screen and (max-width: 499px) { }
 
 @media screen and (min-width: 1440px) {
-  .pageTitle {
+  .page-title {
     font-size: 4.125rem;
   }
 }

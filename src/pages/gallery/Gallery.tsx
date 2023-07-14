@@ -3,8 +3,8 @@ import "./Gallery.css";
 
 const Gallery = () => {
   return (
-    <div className="galleryContent">
-      <h1 className="pageTitle">Gallery</h1>
+    <div className="gallery-content">
+      <h1 className="page-title">Gallery</h1>
     </div>
   );
 };

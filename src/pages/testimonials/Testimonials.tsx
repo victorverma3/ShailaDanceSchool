@@ -72,19 +72,19 @@ const testimonials = () => {
     },
   ];
   return (
-    <div className="testimonialContent">
-      <h1 className="pageTitle">Testimonials</h1>
+    <div className="testimonial-content">
+      <h1 className="page-title">Testimonials</h1>
       <div className="testimonials">
         {testimonialElements.map((element) => {
           return (
             <Reveal>
-              <div className="testimonialElement">
+              <div className="testimonial-element">
                 <img
-                  className="testimonialStars"
+                  className="testimonial-stars"
                   src={stars}
                   alt="image loading error"
                 ></img>
-                <p className="testimonialQuote">{element.review}</p>
+                <p className="testimonial-quote">{element.review}</p>
               </div>
             </Reveal>
           );
